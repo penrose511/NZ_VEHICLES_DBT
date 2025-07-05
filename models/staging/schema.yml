@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: ingest_db
+    database: ingest_db
+    schema: prod
+    tables:
+      - name: vehicleyear

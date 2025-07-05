@@ -1,0 +1,1 @@
+select distinct make from {{ ref('stg_vehicleyear') }}
