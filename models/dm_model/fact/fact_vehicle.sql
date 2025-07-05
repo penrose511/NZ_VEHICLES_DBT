@@ -52,7 +52,7 @@ dim_miscellaneous as (
     select
         misc_key,
         submodel
-    from {{ ref('dim_miscellaneous') }}
+    from {{ ref('dim_misc') }}
 )
 
 select
